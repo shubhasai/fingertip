@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PopularSitesFragment">
+
+
+    <ImageView
+        android:id="@+id/messo"
+        android:layout_width="68dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="204dp"
+        android:src="@drawable/meesho"
+        app:layout_constraintStart_toEndOf="@+id/flipkart"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/instagram"
+        android:layout_width="68dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="320dp"
+        android:src="@drawable/instagram"
+        app:layout_constraintStart_toEndOf="@+id/messo"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/theprint"
+        android:layout_width="68dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="548dp"
+        android:src="@drawable/theprint"
+        app:layout_constraintStart_toEndOf="@+id/amazon"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bubblegum_sans"
+        android:gravity="center"
+        android:text="POPULAR SITES"
+        android:textAlignment="center"
+        android:textColor="@color/redtheme"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.097" />
+
+    <ImageView
+        android:id="@+id/primevideo"
+        android:layout_width="68dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="436dp"
+        android:src="@drawable/primevideo"
+        app:layout_constraintStart_toEndOf="@+id/amazon"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/amazon"
+        android:layout_width="68dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="204dp"
+        android:src="@drawable/amazon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/flipkart"
+        android:layout_width="68dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="204dp"
+        android:src="@drawable/flipkart"
+        app:layout_constraintStart_toEndOf="@+id/amazon"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/youtube"
+        android:layout_width="68dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="436dp"
+        android:src="@drawable/youtube"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/thehindu"
+        android:layout_width="68dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="548dp"
+        android:src="@drawable/thehindu"
+        app:layout_constraintStart_toEndOf="@+id/messo"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/facebook"
+        android:layout_width="68dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="320dp"
+        android:src="@drawable/facebook"
+        app:layout_constraintStart_toEndOf="@+id/flipkart"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/mxplayer"
+        android:layout_width="68dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="436dp"
+        android:src="@drawable/mxplayer"
+        app:layout_constraintStart_toEndOf="@+id/messo"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/snapdeal"
+        android:layout_width="68dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="204dp"
+        android:src="@drawable/snapdeal"
+        app:layout_constraintStart_toEndOf="@+id/messo"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/myntra"
+        android:layout_width="68dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="320dp"
+        android:src="@drawable/myntra"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/toi"
+        android:layout_width="68dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="548dp"
+        android:src="@drawable/toi"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/hotstar"
+        android:layout_width="68dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="436dp"
+        android:src="@drawable/hotstar"
+        app:layout_constraintStart_toEndOf="@+id/flipkart"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/twitter"
+        android:layout_width="68dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="320dp"
+        android:src="@drawable/twitter"
+        app:layout_constraintStart_toEndOf="@+id/amazon"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/telegraph"
+        android:layout_width="68dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="548dp"
+        android:src="@drawable/telegraph"
+        app:layout_constraintStart_toEndOf="@+id/flipkart"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
